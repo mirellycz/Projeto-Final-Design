@@ -4,9 +4,8 @@ O desafio deste projeto visa realizar a montagem do sistema de gerenciamento da 
 ## Colaboradores
 
 - Ana Karolina Barros
-- Eric Yuri Bandeira
 - Mirelly Cruz
-- Ricardo Adrian.
+
 
 ## Tarefas (21/12/2023)
 - [ ] Montagem de página de login (Todos)
