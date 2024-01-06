@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/img/logo_awe.svg" type="image/x-icon">
+    <script src="assets/js/main.js"></script>
+</head>
+<body>
+    <section class="dashboardeditprofile d-flex">
+        <div class="menu">
+            <nav class="head-menu">
+              <div class="logo">
+                <img src="assets/img/logo_awe.svg" alt="logo">
+              </div>
+              <div class="menu-nav">
+                <div class="menu-item" onclick="window.location.href='dashboard.html'">
+                  <img src="assets/img/dashboard.svg" alt="">
+                  <p>Dashboard</p>
+                </div>
+                <div class="menu-item-2">
+                  <img src="assets/img/modalidades.svg" alt="">
+                  <p class="modalidades">Modalidades</p>
+                </div>
+                <div class="menu-item" onclick="window.location.href='index.html'">
+                  <img src="assets/img/sair.svg" alt="">
+                  <p class="sair">Sair</p>
+                </div>
+              </div>
+            </nav>
+            <div class="config-logo">
+              <img src="assets/img/config_logo.svg" alt="config logo">
+            </div>
+            <div class="perfil" onclick="window.location.href='profile.html'"  >
+              <img src="assets/img/perfil.svg" alt="">
+              <div>
+                <p><b>Jr Programador</b></p>
+                <p>Atleta</p>
+              </div>
+            </div>
+          </div>
+        <div class="dashboard dashboardeditprofile">
+            <div class="dashboardcontent">
+                <header class="header-7">
+                    <div class="breadcrumb-7">
+                        <p class="pbread-7">Perfil</p>
+                    </div>
+                    <h4>Edição de perfil</h4>
+                </header>  
+                <div class="infodown">
+                    <div class="card card-info-modalidade">
+                        <img src="assets/img/fotoicon.svg" class="imagemoriginal" alt="">
+                        <h3 class="fotoh4">Jr Programador da Silva</h3>
+                        <button type="button" class="buttonedit btn btn-primary mt-3"><img src="assets/img/pen.svg" alt=""> Editar Perfil</button>
+                        <button type="button" class="buttonedit2 btn btn-outline-primary" onclick="window.location.href='alterarsenha.html'"><img src="assets/img/locked.svg" alt=""> Alterar Senha</button>
+                        <button type="button" class="buttonedit3 btn btn-outline-danger"><img src="assets/img/trash.svg" alt=""> Excluir conta</button>
+                    </div>
+                    <div class="dadospessoais">
+                        <div class="grupo-campos d-flex">
+                            <div class="cpf">
+                                <label for="exampleInputPassword1">CPF</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="###.###.###-##">
+                            </div>
+                            <div class="EMAIL">
+                                <label for="exampleInputPassword1">E-mail</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="campo-de-texto">
+                            <div class="nome">
+                                <label for="exampleInputPassword1">Nome</label>
+                                <input type="name" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </div>
+                        <div class="campo-de-selecao">
+                            <div class="data">
+                                <label for="exampleInputPassword1">Nascimento</label> 
+                                <input type="text" id="datepicker" class="form-control">
+                            </div>
+                        </div>
+                        <div class="campo-de-selecao-genero">
+                            <div class="data">
+                                <label for="exampleInputPassword1">Genero</label> 
+                                <input type="text" id="datepicker" class="form-control">
+                            </div>
+                        </div>
+                        <div class="campo-de-selecao-UF">
+                            <div class="data">
+                                <label for="exampleInputPassword1">UF</label> 
+                                <input type="text" id="datepicker" class="form-control">
+                            </div>
+                        </div>
+                        <div class="campo-de-selecao-cidade">
+                            <div class="data">
+                                <label for="exampleInputPassword1">Cidade</label> 
+                                <input type="text" id="datepicker" class="form-control">
+                            </div>
+                        </div>
+                    </div>    
+                </div>       
+            </div>
+        </div>
+        
+
+
+
+
+    </section>
+
+
+</html>

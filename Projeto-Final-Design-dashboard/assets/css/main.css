@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+  margin: 0;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+.container-login{
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  height: 100%;
+}
+
+.form-box, label{
+  font-family: 'Open Sans', sans-serif;
+  color: #051D33;
+  font-weight: 600;
+  font-size: 16px;
+}
+.form-box, input{
+  color: gray;
+}
+
+button, .btn{
+  font-family: 'Poppins', sans-serif;
+  width: 410px;
+  height: 48px;
+  font-weight: 700;
+}
+.options{
+  display: flex;
+  gap: 48px;
+}
+
+.options p{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.options .cadastra-se{
+  font-weight: 700;
+  color: #307FE2;
+}
+
+.remember{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.awe{
+  background-image: url(background\ 2.svg);
+  width: 466px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.awecontent{
+  text-align: center;
+}
+
+.awe h4{
+  color: #307FE2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.awe p{
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.title{
+  display: flex;
+  align-items: center;
+  gap: 230px;
+}
+
+.title h4{
+  width: 169px;
+  height: 48px;
+}
+
+.titlecontent{
+  margin-top: 95px;
+  width: 169px;
+  height: 101px;
+}
+
+.arrowtitle{
+  position: relative;
+  top: 50px;
+}
+
+/* DASHBOARD */
+/*SIDE MENU*/
+  .menu {
+    display: flex;
+    width: 297px;
+    height: 100vh;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-right: 1px solid #BDBDBD;
+    position: relative;
+  }
+  .menu-nav{
+    display: flex;
+    width: 201px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .menu-item, .menu-item-2{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .menu-item-2{
+    background: #F5F5F5;
+  }
+  .head-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  
+  .perfil {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+  }
+  .config-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11.429px;
+    position: absolute;
+    right: 18.286px;
+    top: 32px;
+    right: 32px;
+  }
+  .sair{
+    color: #FF161F;
+  }
+  .modalidades{
+    color: #0095D9;
+  }
+/*SIDE MENU END*/
+
+/*Dashboard*/
+.dashboard{
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboardcontent{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px;
+  width: 553px;
+  height: 100%;
+}
+
+.card{
+  display: flex;
+  padding: 15.089px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 34.894px;
+  margin-top: 25px;
+}
+
+.card-title{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.card-title .status{
+  width: 85px;
+} 
+.card-title2 .status{
+  width: 65px;
+} 
+
+.card .btn1{
+  width: 6rem;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+  border-radius: 6px;
+  color: var(--Gray-1, #333);
+  background-color: #fff;
+  border: 0.943px solid #DFE2E7;
+}
+
+.cardbuttons{
+  display: flex;
+  gap: 15px;
+}
+
+.buttonfutsal{
+  width: 160px;
+  background-color: #0095D9;
+  color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.862px;
+}
+/*Edit profile*/
+
+.header-7{
+  display: flex;
+  width: 106.6667vh;
+  padding-bottom: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-bottom: 1px solid #DDD;
+}
+.card-info-modalidade{
+  display: flex;
+  width: 172px;
+  height: 198px;
+  padding: 16px 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.fotoh4{
+  color: var(--Gray-1, #333);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.buttonedit, .buttonedit2, .buttonedit3{
+  width: 172px;
+  font-weight: 700;
+}
+.buttonedit{
+  background-color: #0095D9;
+}
+
+.buttonedit2{
+  color: #0095D9;
+}
+
+.infodown{
+  display: flex;
+  gap: 50px;
+}
+
+.dadospessoais{
+  display: flex;
+  width: 650px;
+  padding: 16px 24px 24px 24px;
+  margin-top: 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-5, #E0E0E0);
+}
+
+.grupo-campos{
+  gap: 24px;
+}
+
+.grupo-campos input{
+  background: #F2F2F2;
+}
+.campo-de-selecao-UF input{
+  background: #F2F2F2;
+}
+
+.campo-de-texto input{
+  width: 321px;
+}
+/*Perfil*/
+.dadospessoais table th{
+  font-weight: 400;
+}
+/*Alterar Senha*/
+.passwordforms{
+  display: flex;
+  width: 650px;
+  padding-bottom: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-bottom: 1px solid #DDD;
+}
+
+.passwordforms input{
+  display: flex;
+  width: 321px;
+  padding: 12px 16px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.pbread-7-3{
+  color: #0095D9;
+  cursor: pointer;
+}
+.buttonpassword{
+  background-color: #0095D9;
+  width: 177px;
+  height: 40px;
+}
+
+
+
+
